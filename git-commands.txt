@@ -1,0 +1,4 @@
+git add . // salva oq foi feito
+git commit -m "descricao da mudanca" // sobe na branch main
+git push // sobe pro github
+git log
