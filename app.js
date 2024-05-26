@@ -8,7 +8,7 @@ const start = async () => {
     try {
         const first = await read_file_promise('./content/first.txt', 'utf-8');
         const second = await read_file_promise('./content/second.txt', 'utf-8');
-        await write_file_promise('./content/result-mind-grenade.txt', `This is the result: ${first}, ${second}`);
+        await write_file_promise('./content/result-mind-grenade.txt', `This is the result: ${first}, ${second}`, {flag: 'a'});
         console.log(first);
         console.log(second);
     } catch (error) {
