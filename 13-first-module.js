@@ -1,12 +1,12 @@
-// npm - global command, comes with node
-// npm --version or npm -v
+//npm - global command, comes with node
+//npm --version or npm -v
 
-// local dependency - use it only in this particular project
-// npm i <packageName>
+//local dependency - use it only in this particular project
+//npm i <packageName>
 
-// global dependency - use it in any project
-// npm install -g <packageName>
-// sudo npm install -g <packageName> (mac)
+//global dependency - use it in any project
+//npm install -g <packageName>
+//sudo npm install -g <packageName> (mac)
 
 const _ = require('lodash');
 
@@ -23,10 +23,10 @@ const EventEmitter = require('events')
 
 const customEmitter = new EventEmitter()
 
-// on and emit methods
-// keep track of the order
-// additional arguments
-// built-in modules utilize it
+//on and emit methods
+//keep track of the order
+//additional arguments
+//built-in modules utilize it
 
 customEmitter.on('response', (name, id) => {
   console.log(`data recieved user ${name} with id:${id}`)
